@@ -1,5 +1,28 @@
 /*CSS Stylesheet*/
+body {
+	background: rgba(0,0,0,.1);
+	font-family: Helvetica, sans-serif;
+}
 
 body p {
-	color: blue;
+	color: #444;
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 2em;
+	color: black;
+	text-transform: uppercase;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #444;
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+p#italic {
+	font-style: italic;
+	font-size: .9em;
+	color: #777;
 }
