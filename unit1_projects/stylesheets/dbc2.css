@@ -1,2 +1,165 @@
 /*CSS Stylesheet*/
 
+body {
+	background: url("../images/pw_maze_white.png");
+	font-family: Myriad Pro, sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+header #headline {
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+header h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Main Image Area */
+
+#main_image_div {
+	min-height: 300px;
+	background: white;
+}
+
+#main_image {
+	
+}
+
+#main_image_div img {
+	max-height: 300px;
+	display: block;
+	margin: auto;
+	padding: 30px 0 0px;
+}
+
+#main_image_description {
+	background: white;
+}
+
+#main_image_description p {
+	padding: 0 0 40px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* 3 Sections Below Main Image */
+
+#section_div {
+	width: 100%;
+	background: white;
+	margin: 5px 0 0 0;
+	height: 200px;
+}
+
+.sections {
+	display: block;
+	width: 33%;
+	float: left;
+	background: white;
+	height: 200px;
+
+}
+
+.sections p {
+	text-align: center;	
+	padding: 20px 0 0;
+}
+
+.sections img {
+	display: block;
+	margin: auto;
+}
+
+#section1 img {
+	width: 250px;
+}
+
+#section2 img {
+	width: 240px;
+}
+
+#section3 img {
+	width: 250px;
+}
+
+/* Main Body of Page */
+
+#main_body {
+	background: white;
+	margin: 5px 0 0 0;
+}
+
+.article_title {
+	font-size: 2em;
+	margin: 30px 0 0;	
+}
+
+#page_content_div {
+	padding: 30px 10px;
+	width: 85%;
+	display: block;
+	margin: auto;
+}
+
+.page_content_text {
+	margin: 20px 0;
+	line-height: 1.8em;
+}
+
+/* Footer Section */
+
+footer {
+	clear: both;
+	margin: 5px 0 0;
+}
+
+#footer_mask {
+	background: rgba(0,0,0,.2);
+	height: 200px;
+	width: 100%;
+}
+
+#footer_div {
+	width: 85%;
+	display: block;
+	margin: auto;
+
+}
+
+.footer_sections {
+	width: 33%;
+	display: block;
+	float: left;
+}
+
+.footer_sections ul {
+	margin: 40px 0 40px;
+	text-align: center;
+}
+
+.footer_sections li {
+	line-height: 1.8em;
+}
+
+.footer_sections a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
