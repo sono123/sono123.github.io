@@ -1,0 +1,121 @@
+body {
+	background: url("../unit1_projects/images/bright_squares.png");
+	font-family: georgia;
+}
+
+#container {
+	background: white;
+	width: 85%;
+	display: block;
+	margin: auto;
+	overflow: auto;
+}
+
+header {
+	width: 100%;
+	/* background: green; */
+	display: block;
+}
+
+#profile {
+	width: 100%;
+}
+
+#hello {
+	padding: 25px 0 0;
+	font-size: 4em;
+	text-align: center;
+}
+
+#my_name {
+	padding: 0 0 25px;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+#map {
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+}
+
+#owl_div {
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+}
+
+#owl {
+	width: 100%;
+	height: 100%;
+}
+
+#projects {
+	width: 100%;
+	height: 300px;
+}
+
+#technical {
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+}
+
+#apple {
+	width: 100%;
+	height: 100%;
+}
+
+#cultural {
+	width: 50%;
+	height: 300px;
+	display: block;
+	float: left;
+	background: rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
