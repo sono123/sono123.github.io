@@ -107,6 +107,14 @@ header {
 	margin: auto;
 }
 
+#technical2 {
+	border: 5px solid rgba(0,0,0,.2);
+	width: 250px;
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+
 #cultural {
 	width: 100%;
 	height: 100%;
