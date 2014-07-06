@@ -6,6 +6,7 @@ body {
 #container {
 	background: white;
 	width: 85%;
+	max-width: 1200px;
 	display: block;
 	margin: auto;
 	
