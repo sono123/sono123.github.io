@@ -14,11 +14,12 @@ body {
 
 header {
 	width: 100%;
-	max-width: 1050px;
+	max-width: 1200px;
 	display: block;
 }
 
 #image_div {
+	width: 100%;
 	background: rgba(0,0,0,.02);
 	border-bottom: 1px solid rgba(0,0,0,.05);
 	margin: 0 0 50px;
