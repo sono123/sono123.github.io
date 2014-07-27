@@ -5,54 +5,101 @@
   <meta charset=”utf-8”>
   <title>Classes and Objects</title>
   <link rel="stylesheet" href="stylesheets/reset.css">
-  <link rel="stylesheet" href="stylesheets/stylesheet.css">
-  <link rel="stylesheet" href="stylesheets/technical4.css">
+  <link rel="stylesheet" href="stylesheets/blog_post_stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div id="container">
-
-		<header>
-			<h1 id="page_title">Classes and Objects</h1>
-			<p id="page_info">By Steve Ono, Posted on July 6, 2014</p>
-		</header>
-
-		<div class="image_div">
-			<img id="array" src="../unit1_projects/images/classes.png">
-		</div>
-
-		<div id="page_body">
-			<h2 id="website_name">Object Orientation</h2>
-			<p class="paragraph">In computer programming, there are many types of programming languages. I can't name the exact number, but there are somewhere in the order of a couple hundred languages out there. Perhaps one of the biggest paradigms that has altered computer programming has been the addition of object orientation. Programming languages that use object orientation are called object oriented programming languages, also known as OOP. In OOP, the most notable structures are classes and objects. They are specific to OOP, and they allow the programmer to dramatically reduce the amount of written code in a program.</p>
-		</div>
-
-		<div class="image_div">
-			<img id="array" src="../unit1_projects/images/blueprint.png">
-		</div>
-
-		<div id="page_body">
-			<h2 id="website_name">Classes</h2>
-			<p class="paragraph">Classes are structures that determine how data will be used. They are independent of any specific instances. The best way to describe them would be a blueprint of a townhouse. Since the houses in the neighborhood will pretty much have the same design, the blueprint will be one "master" design. When the individual houses are built, they may end up having different individual details, but the main design is the same. Classes are like blueprints, where objects are like the houses themselves.</p>
-		</div>
-
-		<div class="image_div">
-			<img id="array" src="../unit1_projects/images/townhouse.png">
-		</div>
-
-		<div id="page_body">
-			<h2 id="website_name">Objects</h2>
-			<p class="paragraph">Objects are instances of classes. Given the analogy of a blueprint, the objects are the actual houses. For example, one house may have yellow paint, while another one can have green paint. They are essentially the same design, but small details are different. When you instantiate an object from a class, you are filling that object with specific data, but that data is still structured within the design of the class.</p>
-		</div>
-
-		<footer>
-			<a href="http://sono123.github.io/">
-				<div id="back_botton_div">
-					<p id="back_button">Back</p>
+	<div class="wrapper">
+		<section id="top_panel">
+			<div class="container">
+				<div id="round_div_bottom"></div>
+				<div id="round_div_top">
+					<a href="http://sono123.github.io/"><img id="profile_pic" src="../unit1_projects/images/image_round.png"></a>
 				</div>
-			</a>
-		</footer>
+				<nav>
+					<ul id="navigation">
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">PORTFOLIO</a></li>
+						<li><a href="#">BLOG</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<div id="line"></div>
+		<section id="mid_page">
+
+
+			<div class="post_preview">
+				<div class="week"><p>Week 5 Technical</p></div>
+				<h1 class="page_title">Classes and Objects</h1>
+				<p class="page_info">By Steve Ono, Posted on July 6, 2014</p>
+				<div class="image_div">
+					<img id="array" src="../unit1_projects/images/classes.png" width="650" height="400">
+				</div>
+			</div>
+
+			<div id="page_body">
+				<h2 id="header">Object Orientation</h2>
+				<p class="paragraph">In computer programming, there are many types of programming languages. I can't name the exact number, but there are somewhere in the order of a couple hundred languages out there. Perhaps one of the biggest paradigms that has altered computer programming has been the addition of object orientation. Programming languages that use object orientation are called object oriented programming languages, also known as OOP. In OOP, the most notable structures are classes and objects. They are specific to OOP, and they allow the programmer to dramatically reduce the amount of written code in a program.</p>
+				<div class="spacer"></div>
+				<div class="image_div">
+					<img id="array" src="../unit1_projects/images/blueprint.png" width="650" height="400">
+				</div>
+				<h2 id="header">Classes</h2>
+				<p class="paragraph">Classes are structures that determine how data will be used. They are independent of any specific instances. The best way to describe them would be a blueprint of a townhouse. Since the houses in the neighborhood will pretty much have the same design, the blueprint will be one "master" design. When the individual houses are built, they may end up having different individual details, but the main design is the same. Classes are like blueprints, where objects are like the houses themselves.</p>
+				<div class="spacer"></div>
+				<div class="image_div">
+					<img id="array" src="../unit1_projects/images/townhouse.png">
+				</div>
+				<h2 id="header">Objects</h2>
+				<p class="paragraph">Objects are instances of classes. Given the analogy of a blueprint, the objects are the actual houses. For example, one house may have yellow paint, while another one can have green paint. They are essentially the same design, but small details are different. When you instantiate an object from a class, you are filling that object with specific data, but that data is still structured within the design of the class.</p>
+			</div>
+
+		</section>
+
+		<div class="push"></div>
 
 	</div>
+		
+	<section id="bottom_line"></section>
+	<div class="footer">
+		<div class="footer_container">
+			<div class="icon_sections">
+				<a id="ruby" href="#">
+					<h2>RUBY</h2>
+					<img id="ruby_logo" src="../unit1_projects/images/icons/ruby_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="javascript" href="#">
+					<h2>JAVASCRIPT</h2>
+					<img id="js_logo" src="../unit1_projects/images/icons/js_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="html" href="#">
+					<h2>HTML5</h2>
+					<img id="html_logo" src="../unit1_projects/images/icons/html_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="css" href="#">
+					<h2>CSS3</h2>
+					<img id="css_logo" src="../unit1_projects/images/icons/css_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="sql" href="#">
+					<h2>SQL</h2>
+					<img id="sql_logo" src="../unit1_projects/images/icons/sql_logo.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="js/jQuery.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
@@ -60,5 +107,4 @@
 
 
 
-<!-- <img src="../unit1_projects/images/image_round.png"> -->
 
