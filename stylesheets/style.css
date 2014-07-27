@@ -150,10 +150,6 @@ nav {
 	height: 70px;
 }
 
-.icon_sections img#ruby_logo:hover {
-	background: url("../unit1_projects/images/icons/ruby_logo_hover.png");
-}
-
 .icon_sections h2 {
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
