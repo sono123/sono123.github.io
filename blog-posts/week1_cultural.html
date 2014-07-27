@@ -5,38 +5,91 @@
   <meta charset=”utf-8”>
   <title>Cultural Blog</title>
   <link rel="stylesheet" href="stylesheets/reset.css">
-  <link rel="stylesheet" href="stylesheets/stylesheet.css">
-  <link rel="stylesheet" href="stylesheets/cultural.css">
+  <link rel="stylesheet" href="stylesheets/blog_post_stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div id="container">
-
-		<header>
-			<h1 id="page_title">DBC After A Week</h1>
-			<p id="page_info">By Steve Ono, Posted on June 8, 2014</p>
-		</header>
-
-		<div class="image_div">
-			<img id="sherif" src="../unit1_projects/images/cultural.png">
-		</div>
-
-		<div id="page_body">
-			<h2 id="website_name">Kitchen vs. Table</h2>
-			<p id="paragraph">After a week 1 of Phase 0, I can say that there were many surprises that I didnt expect. The experience was definitely a positive one though. I'll start with the negative first, just so we can get that out of the way.</p>
-			<p id="paragraph">My only complaints would revolve around the necessary time to commit to this program. I didnt realize that there would be this amount of work during Phase 0. I totally acknowledge that I may have simply not noticed this information when reading about the course, but I do think it wasnt spelled out clear enough. I work around 60 hours a week at my family business. Although I have flexibility, this makes it very difficult to to find the additional 15-25 hours per week.</p>
-			<p id="paragraph">As for the positives, I love the Kitchen vs. Table analogy that Sherif made. I am definitely the type of person who likes to push the boundaries and change things. I like to extract the most that I can out of many situations. I love positive energy, and hard working people. It was such a relief to hear that this type of attitude is encouraged at Dev Bootcamp. I've definitly had thoughts ranging from "Will this program be good enough?" to "Am I good enough". So, it was nice to hear that other people have had a similar internal dialog. The truth is, I really didnt know what to expect going forward, but I knew that I am willing to bust my ass. After hearing Sherif speak about how this program works, I feel much more confident that I will get everything and some out of this experience.</p>
-		</div>
-
-		<footer>
-			<a href="http://sono123.github.io/">
-				<div id="back_botton_div">
-					<p id="back_button">Back</p>
+	<div class="wrapper">
+		<section id="top_panel">
+			<div class="container">
+				<div id="round_div_bottom"></div>
+				<div id="round_div_top">
+					<img id="profile_pic" src="../unit1_projects/images/image_round.png">
 				</div>
-			</a>
-		</footer>
+				<nav>
+					<ul id="navigation">
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">PORTFOLIO</a></li>
+						<li><a href="#">BLOG</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<div id="line"></div>
+		<section id="mid_page">
+
+
+			<div class="post_preview">
+				<div class="week"><p>Week 1 Cultural</p></div>
+				<h1 class="page_title">DBC After A Week</h1>
+				<p class="page_info">By Steve Ono, Posted on June 8, 2014</p>
+				<div class="image_div">
+					<img id="array" src="../unit1_projects/images/cultural.png" width="650" height="400">
+				</div>
+			</div>
+
+			<div id="page_body">
+				<h2 class="header">Kitchen vs. Table</h2>
+				<p class="paragraph">After a week 1 of Phase 0, I can say that there were many surprises that I didnt expect. The experience was definitely a positive one though. I'll start with the negative first, just so we can get that out of the way.</p>
+				<p class="paragraph">My only complaints would revolve around the necessary time to commit to this program. I didnt realize that there would be this amount of work during Phase 0. I totally acknowledge that I may have simply not noticed this information when reading about the course, but I do think it wasnt spelled out clear enough. I work around 60 hours a week at my family business. Although I have flexibility, this makes it very difficult to to find the additional 15-25 hours per week.</p>
+				<p class="paragraph">As for the positives, I love the Kitchen vs. Table analogy that Sherif made. I am definitely the type of person who likes to push the boundaries and change things. I like to extract the most that I can out of many situations. I love positive energy, and hard working people. It was such a relief to hear that this type of attitude is encouraged at Dev Bootcamp. I've definitly had thoughts ranging from "Will this program be good enough?" to "Am I good enough". So, it was nice to hear that other people have had a similar internal dialog. The truth is, I really didnt know what to expect going forward, but I knew that I am willing to bust my ass. After hearing Sherif speak about how this program works, I feel much more confident that I will get everything and some out of this experience.</p>
+			</div>
+
+		</section>
+
+		<div class="push"></div>
 
 	</div>
+		
+	<section id="bottom_line"></section>
+	<div class="footer">
+		<div class="footer_container">
+			<div class="icon_sections">
+				<a id="ruby" href="#">
+					<h2>RUBY</h2>
+					<img id="ruby_logo" src="../unit1_projects/images/icons/ruby_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="javascript" href="#">
+					<h2>JAVASCRIPT</h2>
+					<img id="js_logo" src="../unit1_projects/images/icons/js_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="html" href="#">
+					<h2>HTML5</h2>
+					<img id="html_logo" src="../unit1_projects/images/icons/html_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="css" href="#">
+					<h2>CSS3</h2>
+					<img id="css_logo" src="../unit1_projects/images/icons/css_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="sql" href="#">
+					<h2>SQL</h2>
+					<img id="sql_logo" src="../unit1_projects/images/icons/sql_logo.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="../unit1_projects/js/jquery.js"></script>
+	<script src="../unit1_projects/js/main.js"></script>
 </body>
 
 </html>
