@@ -5,38 +5,91 @@
   <meta charset=”utf-8”>
   <title>Week 7 Technical</title>
   <link rel="stylesheet" href="stylesheets/reset.css">
-  <link rel="stylesheet" href="stylesheets/stylesheet.css">
-  <link rel="stylesheet" href="stylesheets/technical7.css">
+  <link rel="stylesheet" href="stylesheets/blog_post_stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div id="container">
-
-		<header>
-			<h1 id="page_title">SQL Injection</h1>
-			<p id="page_info">By Steve Ono, Posted on July 20, 2014</p>
-		</header>
-
-		<div class="image_div">
-			<iframe width="650" height="400" src="//www.youtube.com/embed/FwIUkAwKzG8" frameborder="0" allowfullscreen></iframe>
-		</div>
-
-		<div id="page_body">
-			<h2 id="website_name">SQL & SQL Injection</h2>
-			<p class="paragraph">SQL (structured query language) is a specialized programming language which was created to store and manipulate data within a relational database. Nearly all dynamic websites require a database of some sort, making SQL immensly popular worldwide. It is one of the most commonly used database languages on the web today.</p>
-			<p class="paragraph">Although SQL offers a very effective means of managing data within a database, it has its limitations. SQL injection is probably the most notable of these limitations. SQL injection is a vulnerability (design flaw) that allows unintended visitors to access a database. As indicated in the video above, this vulnerability is well documented, and there are many solutions that address this problem. Most of these precautions involve implementing some simple code to check for malicious queries. However, there is also software that can provide additional security.</p>
-			<p class="paragraph">Despite its dominance, SQL isnt the only option when it comes to databases. A relative newcomer (SQL was developed in the 70's) called NoSQL has been making progress recently. NoSQL (Not Only SQL) is a dabase management system that stores data differently than relational databases. Without getting into detail on the technical aspects, NoSQL is capable of operating faster and more efficiently than SQL in certain circumstances. They offer greater flexibility when doing queries, and they are more scalable. They are not necessarily a better solution, but rather more appropriate in certain circumstances.</p>
-		</div>
-
-		<footer>
-			<a href="http://sono123.github.io/">
-				<div id="back_botton_div">
-					<p id="back_button">Back</p>
+	<div class="wrapper">
+		<section id="top_panel">
+			<div class="container">
+				<div id="round_div_bottom"></div>
+				<div id="round_div_top">
+					<a href="http://sono123.github.io/"><img id="profile_pic" src="../unit1_projects/images/image_round.png"></a>
 				</div>
-			</a>
-		</footer>
+				<nav>
+					<ul id="navigation">
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">PORTFOLIO</a></li>
+						<li><a href="#">BLOG</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<div id="line"></div>
+		<section id="mid_page">
+
+
+			<div class="post_preview">
+				<div class="week"><p>Week 7 Technical</p></div>
+				<h1 class="page_title">SQL Injection</h1>
+				<p class="page_info">By Steve Ono, Posted on July 20, 2014</p>
+				<div class="image_div">
+					<iframe width="650" height="400" src="//www.youtube.com/embed/FwIUkAwKzG8" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div id="page_body">
+				<h2 id="header">SQL & SQL Injection</h2>
+				<p class="paragraph">SQL (structured query language) is a specialized programming language which was created to store and manipulate data within a relational database. Nearly all dynamic websites require a database of some sort, making SQL immensly popular worldwide. It is one of the most commonly used database languages on the web today.</p>
+				<p class="paragraph">Although SQL offers a very effective means of managing data within a database, it has its limitations. SQL injection is probably the most notable of these limitations. SQL injection is a vulnerability (design flaw) that allows unintended visitors to access a database. As indicated in the video above, this vulnerability is well documented, and there are many solutions that address this problem. Most of these precautions involve implementing some simple code to check for malicious queries. However, there is also software that can provide additional security.</p>
+				<p class="paragraph">Despite its dominance, SQL isnt the only option when it comes to databases. A relative newcomer (SQL was developed in the 70's) called NoSQL has been making progress recently. NoSQL (Not Only SQL) is a dabase management system that stores data differently than relational databases. Without getting into detail on the technical aspects, NoSQL is capable of operating faster and more efficiently than SQL in certain circumstances. They offer greater flexibility when doing queries, and they are more scalable. They are not necessarily a better solution, but rather more appropriate in certain circumstances.</p>
+			</div>
+
+		</section>
+
+		<div class="push"></div>
 
 	</div>
+		
+	<section id="bottom_line"></section>
+	<div class="footer">
+		<div class="footer_container">
+			<div class="icon_sections">
+				<a id="ruby" href="#">
+					<h2>RUBY</h2>
+					<img id="ruby_logo" src="../unit1_projects/images/icons/ruby_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="javascript" href="#">
+					<h2>JAVASCRIPT</h2>
+					<img id="js_logo" src="../unit1_projects/images/icons/js_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="html" href="#">
+					<h2>HTML5</h2>
+					<img id="html_logo" src="../unit1_projects/images/icons/html_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="css" href="#">
+					<h2>CSS3</h2>
+					<img id="css_logo" src="../unit1_projects/images/icons/css_logo.png">
+				</a>
+			</div>
+			<div class="icon_sections">
+				<a id="sql" href="#">
+					<h2>SQL</h2>
+					<img id="sql_logo" src="../unit1_projects/images/icons/sql_logo.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="js/jQuery.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
