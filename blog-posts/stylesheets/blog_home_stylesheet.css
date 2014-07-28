@@ -3,6 +3,7 @@ html, body {
 	text-decoration: none;
 	margin: 0px;
 	height: 100%;
+	color: black;
 }
 
 .wrapper {
@@ -94,6 +95,7 @@ nav {
 	font-family: georgia, serif;
 	font-size: 3em;
 	text-align: center;
+	color: black;
 }
 
 .page_title_link {
