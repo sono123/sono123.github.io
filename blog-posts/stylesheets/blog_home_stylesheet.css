@@ -100,6 +100,7 @@ nav {
 
 .page_title_link {
 	text-decoration: none;
+	color: black;
 }
 
 .page_title_link:visited {
